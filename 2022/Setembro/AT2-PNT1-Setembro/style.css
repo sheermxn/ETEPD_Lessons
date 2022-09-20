@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+#tabela {
+    width: 50%;
+    padding: 20px;
+}
+
+#tabela tr td {
+    border: 1px solid;
+    padding: 10px 40px;
+}
+
+#tabela tr {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#tabela tr img {
+    width: 100%;
+}
+
+#tabela tr td input {
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+}
